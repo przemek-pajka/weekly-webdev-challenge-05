@@ -13,13 +13,10 @@
     }
   });
 
+  $('.view-more, .category-btn').click(function() {
+    $('.portfolio-projects__item').css({'opacity':'1','transform':'scale(1)'});
+  });
 
-    $('.view-more, .category-btn').click(function() {
-      $('.portfolio-projects__item').css({'opacity':'1','transform':'scale(1)'});
-    });
-
-
-    console.log("yes");
 
   var n = {
     origin: "bottom",
