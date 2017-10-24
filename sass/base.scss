@@ -275,7 +275,7 @@ header {
 .our-greatest__section {
     position: relative;
     padding: 186px 0px 150px;
-    background: url('../images/our-works.png') 0% 70%;
+    background: url('../images/our-works.png') 0% 70% fixed;
     background-size: cover;
     .two__rows__box {
         position: relative;
@@ -444,7 +444,7 @@ header {
 .precontact__section {
     position: relative;
     padding: 160px 0px;
-    background: url('../images/contact__bg.png') no-repeat;
+    background: url('../images/contact__bg.png') no-repeat fixed;
     background-size: cover;
 
     .two__rows__box {
